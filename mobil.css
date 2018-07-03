@@ -1,0 +1,150 @@
+body {
+	background-color: #f2f1f0;
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	color: #ffffff;
+	
+	font-size: medium;
+}
+
+a {
+	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+#inhalt a {
+	color: inherit;
+	font: inherit;
+	text-decoration: underline;
+}
+
+a:link {
+ 	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+ 	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+ 	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+a:active {
+ 	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.3em;
+}
+
+#kopfleiste {
+	background-color: #759b0d;
+	
+	width: inherit;
+	height: auto;
+	
+	margin-bottom: 5px;
+	padding-left: 10px;
+	
+	font-size: 1.3em;
+	line-height: 1.8em;
+	border-radius: 10px;
+	box-shadow: 2px 3px 3px 0px #515151;
+	-webkit-box-shadow: 2px 3px 3px 0px #515151;
+	text-shadow:  2px 3px 3px #2E2E2E;
+	
+}
+
+#kopfleiste h1 {
+
+	<!--[if IE]
+	display: block;
+	filter: dropshadow(color=#2E2E2E,offX=2,offY=3);
+	<![endif]-->
+
+}
+
+#menu {
+	background-color: #C4EE52;
+	
+	width: auto;
+	height: auto;
+	
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	
+	margin-bottom: 5px;
+	margin-right: 0px;
+	
+	font-size: 1.1em;
+	box-shadow: 2px 3px 3px 0px #515151;
+	-webkit-box-shadow: 2px 3px 3px 0px #515151;
+	text-shadow:  1px 2px 2px #2E2E2E;;
+	float: none;
+	
+	color: #000000;
+}
+
+#menu ul {
+	list-style-type: auto;
+	padding:0;
+}
+
+#menu li {
+	background-color: none;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	<!--[if IE]
+	display: block;
+	filter: dropshadow(color=#2E2E2E,offX=2,offY=3);
+	<![endif]-->
+}
+
+#menu li.current {	
+	color: #2E2E2E;
+}
+
+#inhalt {
+	background-color: #ffffff;
+	
+	width: auto;
+	height: auto;
+	
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	
+	color: #555555;
+	border-radius: 10px;
+	box-shadow: 2px 3px 3px 0px #515151;
+	-webkit-box-shadow: 2px 3px 3px 0px #515151;
+}
